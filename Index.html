@@ -1,18 +1,17 @@
 <html lang="en"><head>
     <meta charset="utf-8">
-    <title>Bootswatch: Free themes for Bootstrap</title>
+    <title>Mi perfil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="CSS/custom.css" rel="stylesheet">
-    <link href="CSS/theme.css" rel="stylesheet">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="node_modules/CSS/theme.css" rel="stylesheet">
 
 </head>
 <body id="home">
 <div class="navbar navbar-default navbar-fixed-top navbar-transparent">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="./">Cristian Copete</a>
+            <a class="navbar-brand" href="#">Cristian Copete</a>
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -47,14 +46,16 @@
                 </div>
         </div>
 
+        <a href="#sobreMi"><span class="glyphicon glyphicon-menu-down" style="font-size: 70px"/></a>
+
+
     </div>
 </div>
 
-<section id="sobreMi" class="section">
+<section id="sobreMi" class="section section-sobreMi">
     <div class="container">
-
         <div class="row">
-            <div class="col-md-6"><h1>Sobre  Mi</h1> ..... Bullshit</div>
+            <div class="col-md-6"><h1>Sobre  Mi</h1> </div>
             <div class="col-md-6">
                 <iframe src="https://embed.spotify.com/?uri=spotify:user:12137353404:playlist:5XgAKTEjaXKnRBzRDIP21x" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
             </div>
@@ -63,19 +64,18 @@
     </div>
 </section>
 
-<section id="Horario" class="section">
+<section id="horario" class="section section-Horario">
     <h1>
         Mi Horario
-        <iframe src="https://outlook.office365.com/owa/calendar/032a09fc994f4b2781b16ecad656c860@uniandes.edu.co/be0510b6eb49437ca2006f39c1c6604f17946511109552577514/calendar.html" frameborder="0" allowtransparency="true"/>
     </h1>
+    <img src="node_modules/Assets/img/calendario.png" align="center">
 
 </section>
 
-<section id="contacto" class="section">
+<section id="contacto" class="section section-contacto">
 
 </section>
-
-<script src="Assets/js/custom.js"></script>
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/Assets/js/custom.js"></script>
 </body></html>
